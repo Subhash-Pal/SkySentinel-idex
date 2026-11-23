@@ -2,7 +2,7 @@
 
 Note: CP1-CP3 are project checkpoints, not the architecture Gates 1-3.
 
-Repo: `Sky-Sentinel-Sim` · Branch: `idex/poc-dec26` · Folder: `docs/idex/`
+Repo: `SkySentinel-idex` · Branch: `idex/poc-dec26` · Folder: `docs/idex/`
 Start: Sun 22 Nov 2026 · Submit window: 25-29 Dec 2026 (portal deadline shown as 31 Dec 23:59, confirm on the portal)
 
 ## The one claim

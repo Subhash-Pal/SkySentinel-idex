@@ -12,7 +12,7 @@ Use with `SKYSENTINEL_IDEX_CONTEXT.md` (full project briefing). This file narrow
 - AirSim binary: `C:\Blocks\Blocks\AirSimNH\AirSimNH\WindowsNoEditor\AirSimNH\Binaries\Win64\AirSimNH.exe` (AirSimNH packaged build, file date 28-03-2026, plugin 1.8.1). Start it in PowerShell with `.\AirSimNH.exe`.
 - Local machine has **no discrete GPU**. Colab (Tesla T4) is the only GPU so far. Isaac Sim is out (needs a local NVIDIA RTX).
 - YOLO + AirSim were implemented locally earlier, but that code is **not in the repo yet** (counts as reported, not done).
-- Repo: `Subhash-Pal/Sky-Sentinel-Sim` (private). Work on branch `idex/poc-dec26`, never on main.
+- Repo for this PoC: `Subhash-Pal/SkySentinel-idex` (confirm it is **private**). Work on branch `idex/poc-dec26` (pushed, commit 0b8cf00 on 23 Nov), never on main. Local clone: `C:\Users\Shubh\OneDrive\Documents\GitHub\SkySentinel-idex`; run output goes outside OneDrive (`D:\DRDO-iDEX\SkySentinel\runs`). The older repo `Subhash-Pal/Sky-Sentinel-Sim` holds earlier code (calibration, Gate 3); reuse is an open decision (copy the files needed, or vendor them).
 
 ### A2. What this task must prove (DECIDED)
 Feature 1 of the iDEX PoC: an **uncertainty-gated, deadline-aware advisory slot** (Tier 3, before L22). A small vision-language model (VLM) looks at AirSim frames and answers a closed-set question. A **conformal prediction set** decides: one answer = may suggest; several answers or none = escalate to the human and hold. A fast classical path always runs. A **circuit breaker** falls back to the classical baseline when the VLM misses its deadline. The VLM never sits in the high-rate flight loop and never commands the vehicle; every output passes the L24 gate and a human.

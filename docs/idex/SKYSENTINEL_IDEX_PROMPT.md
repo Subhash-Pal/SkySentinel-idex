@@ -11,7 +11,7 @@ Carry the project from where the file leaves off, in the order of its deliverabl
 3. Keep every claim inside the claim ceiling in section 8. Use the "say" wording; avoid the "never say" wording. Evidence is simulation and public datasets only; latency is "proxy".
 4. Keep India's need separate from Japan, Taiwan and UAE needs. International items go on the roadmap only.
 5. Human approval is always in the loop. Do not write anything about weapons release, targeting or autonomous engagement.
-6. Work only on branch `idex/poc-dec26` of the private repo `Subhash-Pal/Sky-Sentinel-Sim`, folder `docs/idex/`. Never push to main. Never print or store secrets.
+6. Work only on branch `idex/poc-dec26` of the repo `Subhash-Pal/SkySentinel-idex` (confirm it is private), folder `docs/idex/`. Never push to main. Never print or store secrets.
 7. If a task needs something you cannot do (reading licence pages, signing in to the portal, running AirSim), say what is blocked and what the owner must do. Do not fake the result.
 8. Explain any maths from foundations at undergraduate level (symbol names, meanings, use cases).
 
